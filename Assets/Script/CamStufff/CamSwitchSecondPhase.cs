@@ -5,7 +5,7 @@ using UnityEngine;
 public class CamSwitchSecondPhase : MonoBehaviour {
 
 
-		public static bool isTouchingCanSecChange;
+	public static bool isTouchingCanSecChange;
 	public int myCurrentCam;
 
 	// Use this for initialization
@@ -29,9 +29,11 @@ public class CamSwitchSecondPhase : MonoBehaviour {
 		{
 			isTouchingCanSecChange=true;
 		
-			//myCurrentCam+=1;
+			myCurrentCam+=1;
 
-			//else if(myCurrentCam==1){myCurrentCam-=1;}
+			//else 
+			if(myCurrentCam==0){myCurrentCam+=1;}
+			else if(myCurrentCam==1){myCurrentCam-=1;}
 			
 
 
@@ -49,7 +51,8 @@ public class CamSwitchSecondPhase : MonoBehaviour {
 		
 			//myCurrentCam+=1;
 
-			//else if(myCurrentCam==1){myCurrentCam-=1;}
+			//else 
+			//if(myCurrentCam==1){myCurrentCam-=1;}
 			
 
 

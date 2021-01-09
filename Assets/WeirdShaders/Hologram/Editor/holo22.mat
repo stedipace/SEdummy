@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: holo22
   m_Shader: {fileID: 4800000, guid: 29fed12d8547e354e90be987488147c1, type: 3}
-  m_ShaderKeywords: _GLITCH_ON _GLOW_ON _SCAN_ON
+  m_ShaderKeywords: _GLOW_ON _SCAN_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dc474c88eb3524342a540c1183ca1d62, type: 3}
+        m_Texture: {fileID: 2800000, guid: 87e26904fd67936429d7ecad6ee7aed8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,8 +64,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 0.61
-    - _Brightness: 1.4
+    - _Alpha: 1
+    - _Brightness: 0.8
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -74,11 +74,11 @@ Material:
     - _Fold: 3
     - _Frequency: 1
     - _GlitchIntensity: 1
-    - _GlitchSpeed: 2
+    - _GlitchSpeed: 50
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GlowSpeed: -4.3
+    - _GlowSpeed: -0.2
     - _GlowTiling: 0.2
     - _Heat: 1
     - _Metallic: 0
@@ -86,8 +86,8 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Radius: 1
-    - _RimPower: 10
-    - _ScanSpeed: 2
+    - _RimPower: 1.5
+    - _ScanSpeed: 0.07
     - _ScanTiling: 10
     - _ScrollSpeed: 1
     - _SmoothnessTextureChannel: 0
@@ -100,5 +100,5 @@ Material:
     - _Direction: {r: 3.66, g: 1.5, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 0.26059094, g: 0.6751894, b: 0.9056604, a: 1}
-    - _RimColor: {r: 1, g: 0.19115904, b: 0, a: 1}
+    - _RimColor: {r: 0, g: 0.83556986, b: 1, a: 1}
   m_BuildTextureStacks: []

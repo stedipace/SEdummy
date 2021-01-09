@@ -12,6 +12,7 @@ public class AutoDoor : MonoBehaviour
     {
             playar = GameObject.FindGameObjectWithTag ("Player").transform;
             myAnim=GetComponent<Animator>();
+            //jhg
         
         
     }
@@ -19,6 +20,7 @@ public class AutoDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+            
          float dist = Vector3.Distance(playar.position, transform.position);
             //print("Distance to other: " + dist);
 

@@ -32,9 +32,11 @@ public class CamSwitchCol : MonoBehaviour {
 		{
 			isTouchingCanChange=true;
 		
-			//myCurrentCam+=1;
+			
 
-			//else if(myCurrentCam==1){myCurrentCam-=1;}
+			//else 
+			if(myCurrentCam==0){myCurrentCam+=1;}
+			else if(myCurrentCam==1){myCurrentCam-=1;}
 			
 
 
@@ -53,8 +55,11 @@ public class CamSwitchCol : MonoBehaviour {
 			isTouchingCanChange=false;
 		
 			//myCurrentCam+=1;
+			//if(myCurrentCam==0){myCurrentCam+=1;}
 
-			//else if(myCurrentCam==1){myCurrentCam-=1;}
+
+			//else 
+			//if(myCurrentCam==1){myCurrentCam-=1;}
 			
 
 
